@@ -1,14 +1,19 @@
-import React from 'react';
-import Drawing from './component/drawing-component/drawing-component';
+import React, { Component } from 'react';
+import { Router, Route, Switch } from "react-router";
+import './App.css';
+import Component1 from './components/component1/component1';
+import Main from './leyouts/dashboadr/dashboard';
 
-function App() {
-  return (
-    <div>
-      <Drawing />
-    </div>
-    
-    )
-  ;
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Component1/>
+        <Main/>
+      </div>
+
+    );
+  }
 }
 
 export default App;
