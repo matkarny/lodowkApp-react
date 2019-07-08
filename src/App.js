@@ -1,5 +1,5 @@
 import React from 'react';
-import Drawing from './component/drawing-component/drawing-component';
+import Drawing from './components/drawing-component/drawing-component';
 
 function App() {
   return (
