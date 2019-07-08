@@ -21,10 +21,10 @@ class DrawApp extends React.Component {
 
         })
 
-        this.ctx = this.refs.canvas.getContext('2d');
-        this.ctx.fillStyle="white";
-        this.ctx.fillRect(0,0,800,600);
-        this.ctx.lineWidth = 10;
+        // this.ctx = this.refs.canvas.getContext('2d');
+        // this.ctx.fillStyle="white";
+        // this.ctx.fillRect(0,0,800,600);
+        // this.ctx.lineWidth = 10;
     }
 
     draw(e) { //response to Draw button click 
